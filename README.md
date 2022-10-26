@@ -1,10 +1,14 @@
 # Validator
 
-A simple validation utility, that accepts a set of rules, and returns which of those failed.
+A light-weight validator, that applies a rule-set against a value, and returns the failures.
 
-```javascript
+The rules are processed in the order of the example:
+
+```typescript
 import validate from '@shady/validator'
 
 // returns [] if there are no failing rules
-const errors = validate(value, ruleSet)
+const errors = validate(value, {
+    // rules
+})
 ```
