@@ -1,7 +1,22 @@
 {
-  "name": "validator",
+  "name": "@shady/validator",
+  "description": "Simple validation utility",
+  "author": "Jamshed Javed",
+  "homepage": "https://github.com/JamShady/validator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamShady/validator.git"
+  },
+  "keywords": [
+    "validator",
+    "validation",
+    "input"
+  ],
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/JamShady/validator/issues"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
