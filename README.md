@@ -12,5 +12,6 @@ const errors = validate(value, {
     required: boolean,
     min: number,
     max: number,
+    email: boolean,
 })
 ```

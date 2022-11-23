@@ -26,6 +26,9 @@ describe('RuleSet', () => {
 
         it('Tests min length', () => expect(ruleSet('foo', { required: true, min: 5 })).to.deep.equal(['min']))
 
+        it('Tests required email', () => expect(ruleSet(null, { required: true, email: true })).to.deep.equal(['required','email']))
+        it('Tests email min length', () => expect(ruleSet('foo@bar.com', { email: true, min: 15 })).to.deep.equal(['min']))
+
     })
 
 })
