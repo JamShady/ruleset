@@ -14,6 +14,7 @@ const errors = validate(value, {
     max: number,
     gte: number,
     lte: number,
+    match: any,
     email: boolean,
     onOrAfter: Date | string | number,
     onOrBefore: Date | string | number,
