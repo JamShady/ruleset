@@ -9,6 +9,6 @@ import validate from '@shady/validator'
 
 // returns [] if there are no failing rules
 const errors = validate(value, {
-    // rules
+    required: boolean,
 })
 ```
