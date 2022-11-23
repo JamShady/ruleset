@@ -21,4 +21,11 @@ describe('RuleSet', () => {
 
     })
 
+
+    describe('Tests Compound Rules', () => {
+
+        it('Tests min length', () => expect(ruleSet('foo', { required: true, min: 5 })).to.deep.equal(['min']))
+
+    })
+
 })

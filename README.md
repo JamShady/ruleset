@@ -10,5 +10,6 @@ import validate from '@shady/validator'
 // returns [] if there are no failing rules
 const errors = validate(value, {
     required: boolean,
+    min: number,
 })
 ```
