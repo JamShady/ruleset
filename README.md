@@ -11,5 +11,6 @@ import validate from '@shady/validator'
 const errors = validate(value, {
     required: boolean,
     min: number,
+    max: number,
 })
 ```
