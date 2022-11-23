@@ -13,6 +13,7 @@ const errors = validate(value, {
     min: number,
     max: number,
     gte: number,
+    lte: number,
     email: boolean,
     onOrAfter: Date | string | number,
     onOrBefore: Date | string | number,
