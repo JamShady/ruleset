@@ -18,7 +18,7 @@ const fromStr = (datetime: string, defaultTime: string) => {
 }
 
 
-export default (dateObjOrDateStrOrTimestamp: Date | string | number) => {
+export default (dateObjOrDateStrOrTimestamp: Date | string | number, defaultTime = '00:00:00') => {
     if (dateObjOrDateStrOrTimestamp instanceof Date) {
         return dateObjOrDateStrOrTimestamp
     }
@@ -27,5 +27,5 @@ export default (dateObjOrDateStrOrTimestamp: Date | string | number) => {
         return new Date(dateObjOrDateStrOrTimestamp)
     }
 
-    return fromStr(dateObjOrDateStrOrTimestamp, '00:00:00')
+    return fromStr(dateObjOrDateStrOrTimestamp, defaultTime)
 }
