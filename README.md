@@ -14,6 +14,7 @@ const errors = validate(value, {
     max: number,
     gte: number,
     lte: number,
+    pattern: RegExp | string,
     match: any,
     differ: any,
     differs: any[],
