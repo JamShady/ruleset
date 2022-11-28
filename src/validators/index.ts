@@ -5,6 +5,7 @@ import gte from './gte'
 import lte from './lte'
 import match from './match'
 import differ from './differ'
+import differs from './differs'
 import email from './email'
 import onOrAfter from './onOrAfter'
 import onOrBefore from './onOrBefore'
@@ -13,7 +14,7 @@ export default {
     required,
     min, max,
     gte, lte,
-    match, differ,
+    match, differ, differs,
     email,
     onOrAfter, onOrBefore,
 }
